@@ -4,3 +4,4 @@ Analyze banking and election data with Python scripts
 
 # References & Resources
 https://devenum.com/pandas-sum-columns-by-multiple-conditions/
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/05_add_columns.html
