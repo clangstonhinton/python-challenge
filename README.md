@@ -3,17 +3,27 @@ Analyze banking and election data with Python scripts
 
 ## Background
 
-VBA scripting was used to analyze over 750,000 rows of generated stock market data for 3,000 stocks traded each day of the year spanning the years 2018 - 2020. The output of the script created a summary table for each stock symbol, the yearly change in stock price each year, the percent change in stock price each year and the total volume traded. The output also denoted which stock experienced the greatest percent increase in price, the greatest percent decrease in price and the greatest volume traded for each of the 3 years.
+Python was used to analysis data for 2 projects: PyBank (financial data) and PyPoll (election results). The output of the script created an analysis summary table for each and a text file output.
 
 ### Approach
 
-Leveraged VBA scripting to loop through all three worksheets within one set of code
-Conditional arguments were used to perform functions such as setting data, calculating totals and other mathematical functions, and printing data to summary tables
-"For Loops” where employed to iterate through the data and perform various functions
-Conditional formatting with colors was used to highlight the positive (green)and negative (red) performers each year
+PyBank:
+- Leveraged Python scrips to loop through 86 months profit/loss data
+- "For Loops” where employed to iterate through the data and perform various calculations
+- Conditional arguments were used to determine:
+    * the largest monthly increase in profit with corresponding date
+    * the largest monthly decrease in profit with corresponding date
 
-#### Files
-Module 3 Challenge files
+PyPoll:
+- Leveraged Python scrips to loop through 360,000 ballots to determine the following: 
+    * Total Ballots Cast
+    * Unique Candidates Receiving Votes
+    * Candidate Name with Percent of Votes and Total Votes Received
+    * Overall Winning Candidate
+    
+#### Files Used for Data Analysis
+budget_data.csv
+election_data.csv
 
 ##### References & Resources
 https://devenum.com/pandas-sum-columns-by-multiple-conditions/
