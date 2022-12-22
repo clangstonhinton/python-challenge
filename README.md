@@ -15,7 +15,7 @@ PyBank:
     * the largest monthly decrease in profit with corresponding date
 
 PyPoll:
-- Leveraged Python scrips to loop through 360,000 ballots to determine the following: 
+- Leveraged Python "for loops" and conditional arguements to iterate through 360,000 ballots to determine the following: 
     * Total Ballots Cast
     * Unique Candidates Receiving Votes
     * Candidate Name with Percent of Votes and Total Votes Received
